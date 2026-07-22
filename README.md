@@ -10,7 +10,6 @@ Python、LangChain、Chroma向量数据库、BGE Embedding、DeepSeek LLM、PyPD
 - rag_core.py ：项目主程序，封装RAG系统类
 - test.pdf ：测试业务文档素材
 - requirements.txt：项目Python依赖清单
-- .gitignore：配置忽略虚拟环境、缓存目录
 
 ## 实现功能
 1. 读取PDF文档自动解析文本内容
