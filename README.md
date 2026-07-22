@@ -1,2 +1,23 @@
 # Mini-RAG-QA-System
-A simple Retrieval-Augmented Generation (RAG) system for PDF chatting.
+## 项目简介
+轻量化本地RAG知识库问答系统，实现PDF文档解析、文本切分、向量化存储、相似度检索、大模型问答完整链路。
+适合企业内部资料、项目文档私有化问答场景，可作为信息化实施项目原型。
+
+## 技术栈
+Python、LangChain、Chroma向量数据库、BGE Embedding、DeepSeek LLM、PyPDF
+
+## 项目文件说明
+- rag_core.py ：项目主程序，封装RAG系统类
+- test.pdf ：测试业务文档素材
+- requirements.txt：项目Python依赖清单
+- .gitignore：配置忽略虚拟环境、缓存目录
+
+## 实现功能
+1. 读取PDF文档自动解析文本内容
+2. 递归文本分割，适配长文档处理
+3. 使用BGE模型生成文本向量存入本地向量库
+4. 根据用户问题进行向量相似度检索，召回相关文档片段
+5. 结合大模型，基于私有文档内容生成回答
+
+## 项目收获
+熟悉AI数据治理、文档预处理、向量知识库部署、程序调试与项目工程化管理，具备AI应用实施、数据处理相关实操能力。
